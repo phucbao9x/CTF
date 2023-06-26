@@ -14,7 +14,7 @@ Theo kiến thức có sẵn thì tôi có thể phân tích và định dạng 
 ### Code POC
 
 ```python
-poc = lambda x: "".join([f"{chr(ord(i)>>8 & 0xff)}{chr(ord(i)&0xff)}" for i in x])
+poc = lambda x: "".join([f"{chr(i>>8 & 0xff)}{chr(i&0xff)}" for i in map(lambda j: ord(j), x)])
 ```
 
 Và khi chạy chúng ta dễ dàng Pass được CTF này.<br>
