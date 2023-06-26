@@ -6,7 +6,7 @@ Xem đề tại [Transformation](https://battle.cookiearena.org/challenges/rever
 
 ![Imgur](https://i.imgur.com/LY8CUZK.png)
 
-Theo kiến thức có sẵn thì tôi có hể phân tích và định dạng mỗi chữ trên sẽ có 16bit. Đồng thời ta được cung cấp một manh mối khác.<br>
+Theo kiến thức có sẵn thì tôi có thể phân tích và định dạng mỗi chữ trên sẽ có 16bit. Đồng thời ta được cung cấp một manh mối khác.<br>
 ![Imgur](https://i.imgur.com/XeX82ia.png)
 
 Đoạn code trên rõ ràng là code được viết bằng ngôn ngữ python nếu dịch ngược thì dễ dàng chúng ta sẽ có POC như sau:
